@@ -1,0 +1,20 @@
+%% Transformada de Laplace
+syms t
+f = 8 * t^2 * cos(3*t + 45)
+F = laplace(f)
+F = simplify(F)
+pretty(F)
+
+%% Transformada de Laplace
+syms t
+f = 8 * t^2 * cos(3*t + 45)
+F = laplace(f)
+F = simplify(F)
+pretty(F)
+
+%% Transformada Inversa de Laplace
+syms s
+G = (( s^2 + 3*s + 10 ) * ( s + 5 )) / (( s+3 ) * ( s+4 ) * (s^2 + 2*s + 100))
+g = ilaplace(G)
+g = simplify(g)
+pretty(g)

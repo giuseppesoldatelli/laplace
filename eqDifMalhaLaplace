@@ -1,3 +1,4 @@
+%% Determinar função de transferência usando matrizes
 syms s I1 I2 I3 V
 A = [ (4 + 4*s) -2 -(2 + 4*s) ; -2 (6 + 6*s + (9/s)) -(4 + 6*s) ; -(2 + 4*s) -(4 + 6*s) (14 + 10*s)] % matriz 3x3 (tres linhas e tres colunas - linhas separadas por ; e colunas por espaço)
 B = [ I1 ; I2 ; I3 ]

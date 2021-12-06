@@ -1,5 +1,5 @@
 # laplace
-códigos Laplace (MATLAB)
+Códigos em MATLAB para questões com Laplace 
 
 O "exemplosLaplaceMATLAB" contém exemplos para determinar a transformada e a transformada inversa de Laplace das seguintes funções de transferência.
 
